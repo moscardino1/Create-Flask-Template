@@ -1,0 +1,23 @@
+start
+    cd test
+    python3 -m venv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
+    python app.py
+
+cd test
+source venv/bin/activate
+python app.py
+
+to dev test
+    vercel dev
+
+to deploy
+    vercel deploy
+
+to prod:
+    vercel --prod 
+
+python app.py
+pip freeze > requirements.txt
+
