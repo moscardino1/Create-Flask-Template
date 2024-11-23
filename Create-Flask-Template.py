@@ -288,6 +288,20 @@ body {
 console.log("JavaScript loaded");
 '''
 
+    readme_content = '''# Project Title
+
+This is a basic Flask project to demonstrate project structure.
+
+## Features
+- Home page
+- Contact page
+- Donate page with USDT QR code
+- Information page
+## License
+
+This project is licensed under the MIT License.
+'''
+
     # Write content to files
     with open(os.path.join(folder_name, 'app.py'), 'w') as f:
         f.write(app_py_content)
@@ -303,6 +317,8 @@ console.log("JavaScript loaded");
         f.write(gitignore_content)
     with open(os.path.join(folder_name, '.env'), 'w') as f:
         f.write(env_content)
+    with open(os.path.join(folder_name, 'README.md'), 'w') as f:
+        f.write(readme_content)
 
     with open(os.path.join(folder_name, 'templates', 'index.html'), 'w') as f:
         f.write(index_html_content)
