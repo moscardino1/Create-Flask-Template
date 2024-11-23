@@ -10,6 +10,7 @@ This is a basic Flask project structured for deployment on Vercel. The project i
 - **Information Page**: A page explaining how the app works.
 
 ## Project Structure
+```
 project-folder/
 │
 ├── static/
@@ -32,7 +33,7 @@ project-folder/
 ├── .gitignore
 ├── .env
 └── README.md
-
+```
 
 ## Getting Started
 
@@ -88,10 +89,10 @@ To update the requirements.txt file with the current packages:
 ```sh
 pip freeze > requirements.txt
 ```
-##License
+## License
 This project is licensed under the MIT License.
 
-##Acknowledgments
+## Acknowledgments
 Inspired by modern, responsive CSS designs.
 Utilizes Tailwind CSS for styling.
 Incorporates QR code generation for USDT donations.
