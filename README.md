@@ -70,26 +70,30 @@ project-folder/
 To test the application locally with Vercel:
 ```sh
 vercel dev
+```
 Deployment
 To deploy the application to Vercel:
 
-
+```sh
 vercel deploy
+```
 For production deployment:
 
-
+```sh
 vercel --prod
+```
 Freeze Requirements
 To update the requirements.txt file with the current packages:
 
-
+```sh
 pip freeze > requirements.txt
-License
+```
+##License
 This project is licensed under the MIT License.
 
 ##Acknowledgments
 Inspired by modern, responsive CSS designs.
 Utilizes Tailwind CSS for styling.
 Incorporates QR code generation for USDT donations.
-Contact
+##Contact
 For any questions or feedback, feel free to reach out to us at alessandrocarli90@gmail.com.
