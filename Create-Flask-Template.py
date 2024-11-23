@@ -130,6 +130,7 @@ instance/
 .env
 '''
 
+    env_content = '''env_var = test '''
     index_html_content = '''<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -300,6 +301,8 @@ console.log("JavaScript loaded");
         f.write(info_content)
     with open(os.path.join(folder_name, '.gitignore'), 'w') as f:
         f.write(gitignore_content)
+    with open(os.path.join(folder_name, '.env'), 'w') as f:
+        f.write(env_content)
 
     with open(os.path.join(folder_name, 'templates', 'index.html'), 'w') as f:
         f.write(index_html_content)
