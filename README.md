@@ -93,8 +93,8 @@ pip freeze > requirements.txt
 This project is licensed under the MIT License.
 
 ## Acknowledgments
-Inspired by modern, responsive CSS designs.
-Utilizes Tailwind CSS for styling.
-Incorporates QR code generation for USDT donations.
-##Contact
+ - Inspired by modern, responsive CSS designs.
+ - Utilizes Tailwind CSS for styling.
+ - Incorporates QR code generation for USDT donations.
+## Contact
 For any questions or feedback, feel free to reach out to us at alessandrocarli90@gmail.com.
